@@ -1,12 +1,6 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"],
-  "rules": {
-    "react/no-unescaped-entities": "off",
-    "@next/next/no-page-custom-font": "off",
-    "import/no-unresolved": "off",  // Desactiva la advertencia de importación no resuelta
-    "import/named": "off",           // Desactiva la advertencia sobre importación de componentes no exportados
-    "@typescript-eslint/no-unused-vars": "off" // Desactiva la advertencia por variables no usadas (si aplica)
-  }
+  "extends": ["next/core-web-vitals", "next/typescript"]
+ 
 }
 
 
