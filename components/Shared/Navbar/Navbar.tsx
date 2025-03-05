@@ -15,7 +15,7 @@ export function Navbar() {
       <div className="justify-between lg:flex">
         <Link href="/" className="flex items-center justify-center gap-x-2">
           <Image src="/logo.svg" alt="TarreCars" width={50} height={50} />
-          <span className="text-xl font-bold">Tottus flip</span>
+          <span className="text-xl font-bold">VitaFrut 🍉</span>
         </Link>
 
         <div className="flex items-center justify-center gap-x-7">
