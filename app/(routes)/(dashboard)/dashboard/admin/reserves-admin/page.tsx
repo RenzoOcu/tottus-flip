@@ -8,7 +8,7 @@ export default async function pageReservesAdmin() {
   const { userId } = auth();
   const user = await currentUser();
 
-  if (!userId || !user || !isAdministrator(userId)) {
+  if (!userId || !user || isAdministrator(userId)) {
     return redirect("/");
   }
 
