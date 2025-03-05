@@ -22,7 +22,7 @@ export function SidebarRoutes() {
 
         <Separator />
 
-        {!isAdministrator(userId) && (
+        {isAdministrator(userId) && (
           <div className="p-2 md:p-6">
             <p className="mb-2 text-slate-500">ADMIN</p>
             {dataAdminSidebar.map((item) => (
